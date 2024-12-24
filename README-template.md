@@ -1,23 +1,28 @@
 <!-- based on https://github.com/googlemaps/.github/blob/master/README-template.md but without lifecycle or language package -->
-![GitHub Release](https://img.shields.io/github/v/release/googlemaps/.github)
-![Release](https://github.com/googlemaps/REPO/workflows/Release/badge.svg)
 
 <!--repo-specific badges-->
-[![Tests/Build Status](https://github.com/googlemaps/REPO/actions/workflows/test.yml/badge.svg)](https://github.com/googlemaps/REPO/actions/workflows/test.yml)
+<!-- [![Build Status](https://github.com/googlemaps-samples/REPO/actions/workflows/test.yml/badge.svg)](https://github.com/googlemaps-samples/REPO/actions/workflows/test.yml) -->
 
 <!--constant badges-->
-![GitHub contributors](https://img.shields.io/github/contributors/googlemaps/REPO?color=green)
-[![GitHub License](https://img.shields.io/github/license/googlemaps/REPO?color=blue)][license]
-[![StackOverflow](https://img.shields.io/stackexchange/stackoverflow/t/google-maps?color=orange&label=google-maps&logo=stackoverflow)](https://stackoverflow.com/questions/tagged/google-maps)
+![GitHub contributors](https://img.shields.io/github/contributors/googlemaps-samples/REPO?color=green)
+[![GitHub License](https://img.shields.io/github/license/googlemaps-samples/REPO?color=blue)][license]
 [![Discord](https://img.shields.io/discord/676948200904589322?color=6A7EC2&logo=discord&logoColor=ffffff)][Discord server]
 
-# New README Template (Alpha|Beta|Frozen)
+# README Template for samples
 
 ## Description
 
-This is a sample README file with the recommended sections for new samples in the <https://github.com/googlemaps-samples> organization. This is where you place the description of the project with a hyperlink to the related product's Overview page on developers.google.com.
+This repository provides a sample app demonstrating use of the [PRODUCT].
+
+## List of samples
+
+- Sample 1
+- Sample 2
+- Sample 3
 
 ## Requirements
+
+To run the samples, you will need:
 
 - [Sign up with Google Maps Platform]
 - A Google Maps Platform [project] with the **PRODUCT** enabled
@@ -26,44 +31,20 @@ This is a sample README file with the recommended sections for new samples in th
 - (optional) Language(s) (and any version) requirements
 - (others)
 
-## Installation
+## Run the samples
 
-Installation guidance here. Where should the installation code be inserted?
+1. Clone this repository and change into the cloned directory
 
-```
-Installation code snippet
-```
+  ```shell
+  git clone git@github.com:googlemaps-samples/REPO.git && cd REPO
+  ```
 
-## Sample App(s)
+1. Add your API key to the appropriate file(s) in the project using [API key instructions].
+1. Run the app
 
-If this samples repo has more than one sample, list & describe them here
-
-## Documentation
-
-- (optional) For more guidance, see the [documentation].
-
-## Usage
-
-### Feature 1 Heading
-
-Description of feature 1.
-
-```
-Feature 1 sample code
-```
-
-<details>
-  <summary>Feature 2 title</summary>
-
-### Feature 2 title
-
-This demonstrates hiding a long feature section behind an expandable. If using expandables, it would be best to put all but the first most basic sample in expandables.
-
-```javascript
-Feature 2 sample code
-```
-
-</details>
+  ```shell
+  command line run command
+  ```
 
 ## Contributing
 
@@ -75,28 +56,22 @@ External contributions are not accepted for this repository. See [contributing g
 
 ## Terms of Service
 
-This library uses Google Maps Platform services. Use of Google Maps Platform services through this library is subject to the Google Maps Platform [Terms of Service].
+This sample uses Google Maps Platform services. Use of Google Maps Platform services through this sample is subject to the Google Maps Platform [Terms of Service].
 
-This library is not a Google Maps Platform Core Service. Therefore, the Google Maps Platform Terms of Service (e.g. Technical Support Services, Service Level Agreements, and Deprecation Policy) do not apply to the code in this library.
+This sample is not a Google Maps Platform Core Service. Therefore, the Google Maps Platform Terms of Service (e.g. Technical Support Services, Service Level Agreements, and Deprecation Policy) do not apply to the code in this sample.
 
 ## Support
 
-This library is offered via an open source [license]. It is not governed by the Google Maps Platform Support [Technical Support Services Guidelines, the SLA, or the [Deprecation Policy]. However, any Google Maps Platform services used by the library remain subject to the Google Maps Platform Terms of Service.
-
-This library adheres to [semantic versioning] to indicate when backwards-incompatible changes are introduced. Accordingly, while the library is in version 0.x, backwards-incompatible changes may be introduced at any time.
+This sample is offered via an open source [license]. It is not governed by the Google Maps Platform Support [Technical Support Services Guidelines], the [SLA], or the [Deprecation Policy]. However, any Google Maps Platform services used by the sample remain subject to the Google Maps Platform Terms of Service.
 
 If you find a bug, or have a feature request, please [file an issue] on GitHub. If you would like to get answers to technical questions from other Google Maps Platform developers, ask through one of our [developer community channels]. If you'd like to contribute, please check the [contributing guide].
 
-You can also discuss this library on our [Discord server].
+You can also discuss this sample on our [Discord server].
 
 <!--repo-specific anchor links-->
+[PRODUCT]: https://developers.google.com/maps/documentation/PRODUCT
 [API key]: https://developers.google.com/maps/documentation/PRODUCT/get-api-key
-[maps-sdk]: https://developers.google.com/maps/documentation/PRODUCT
-[reference documentation]: https://googlemaps.github.io/REPO
-[documentation]: https://developers.google.com/maps/xxx
-[jetpack-compose]: https://developer.android.com/jetpack/compose
-[android-maps-ktx]: https://github.com/googlemaps/android-maps-ktx
-[npm-pkg]: https://npmjs.com/package/@googlemaps/NPM-REPO
+[API key instructions]: https://developers.google.com/maps/documentation/PRODUCT/config#step_3_add_your_api_key_to_the_project
 
 <!--constant anchor links-->
 [code of conduct]: ?tab=coc-ov-file#readme
@@ -108,9 +83,7 @@ You can also discuss this library on our [Discord server].
 [license]: LICENSE
 [pull request]: https://github.com/googlemaps/REPO/compare
 [project]: https://developers.google.com/maps/documentation/PRODUCT/cloud-setup#enabling-apis
-[semantic versioning]: https://semver.org
 [Sign up with Google Maps Platform]: https://console.cloud.google.com/google/maps-apis/start
-[similar inquiry]: https://github.com/googlemaps/REPO/issues
 [SLA]: https://cloud.google.com/maps-platform/terms/sla
 [Technical Support Services Guidelines]: https://cloud.google.com/maps-platform/terms/tssg
 [Terms of Service]: https://cloud.google.com/maps-platform/terms
