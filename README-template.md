@@ -1,20 +1,21 @@
 <!-- based on https://github.com/googlemaps/.github/blob/master/README-template.md but without lifecycle or language package -->
 
 <!--repo-specific badges-->
-<!-- [![Build Status](https://github.com/googlemaps-samples/REPO/actions/workflows/test.yml/badge.svg)](https://github.com/googlemaps-samples/REPO/actions/workflows/test.yml) -->
+[![Build](https://github.com/googlemaps-samples/REPO/actions/workflows/build.yml/badge.svg)](https://github.com/googlemaps-samples/REPO/actions/workflows/build.yml)
 
 <!--constant badges-->
-![GitHub contributors](https://img.shields.io/github/contributors/googlemaps-samples/REPO?color=green)
-[![GitHub License](https://img.shields.io/github/license/googlemaps-samples/REPO?color=blue)][license]
+![Contributors](https://img.shields.io/github/contributors/googlemaps-samples/REPO?color=green)
+[![License](https://img.shields.io/github/license/googlemaps-samples/REPO?color=blue)][license]
+[![StackOverflow](https://img.shields.io/stackexchange/stackoverflow/t/google-maps?color=orange&label=google-maps&logo=stackoverflow)](https://stackoverflow.com/questions/tagged/google-maps)
 [![Discord](https://img.shields.io/discord/676948200904589322?color=6A7EC2&logo=discord&logoColor=ffffff)][Discord server]
 
 # README Template for samples
 
 ## Description
 
-This repository provides a sample app demonstrating use of the [PRODUCT].
+This repository provides one or more samples demonstrating use of the [PRODUCT].
 
-## List of samples
+## Samples in this repo (if more than one)
 
 - Sample 1
 - Sample 2
@@ -24,14 +25,14 @@ This repository provides a sample app demonstrating use of the [PRODUCT].
 
 To run the samples, you will need:
 
-- [Sign up with Google Maps Platform]
+- To [sign up with Google Maps Platform]
 - A Google Maps Platform [project] with the **PRODUCT** enabled
-- An [API key] associated with the project above
+- An [API key] associated with the project above ... follow the [API key instructions] if you're new to the process
 - (optional) Operating system (and any version) requirements
 - (optional) Language(s) (and any version) requirements
 - (others)
 
-## Run the samples
+## Running the sample(s)
 
 1. Clone this repository and change into the cloned directory
 
@@ -71,7 +72,15 @@ You can also discuss this sample on our [Discord server].
 <!--repo-specific anchor links-->
 [PRODUCT]: https://developers.google.com/maps/documentation/PRODUCT
 [API key]: https://developers.google.com/maps/documentation/PRODUCT/get-api-key
-[API key instructions]: https://developers.google.com/maps/documentation/PRODUCT/config#step_3_add_your_api_key_to_the_project
+[API key instructions]: (varies... pick one below)
+https://developers.google.com/maps/documentation/PRODUCT/config#SOMETHING
+https://developers.google.com/maps/documentation/android-sdk/config#step_3_add_your_api_key_to_the_project
+https://developers.google.com/maps/flutter-package/config#step_4_add_your_api_key_to_the_project
+https://developers.google.com/maps/documentation/ios-sdk/config#get-key
+https://developers.google.com/maps/documentation/navigation/android-sdk/android-studio-setup#add_the_api_key_to_your_app
+https://developers.google.com/maps/documentation/navigation/ios-sdk/xcode-setup#get-key
+https://developers.google.com/maps/documentation/places/android-sdk/config#get-an-api-key
+https://developers.google.com/maps/documentation/places/ios-sdk/config#get-an-api-key
 
 <!--constant anchor links-->
 [code of conduct]: ?tab=coc-ov-file#readme
@@ -79,9 +88,9 @@ You can also discuss this sample on our [Discord server].
 [Deprecation Policy]: https://cloud.google.com/maps-platform/terms
 [developer community channels]: https://developers.google.com/maps/developer-community
 [Discord server]: https://discord.gg/hYsWbmk
-[file an issue]: https://github.com/googlemaps/REPO/issues/new/choose
+[file an issue]: https://github.com/googlemaps-samples/REPO/issues/new/choose
 [license]: LICENSE
-[pull request]: https://github.com/googlemaps/REPO/compare
+[pull request]: https://github.com/googlemaps-samples/REPO/compare
 [project]: https://developers.google.com/maps/documentation/PRODUCT/cloud-setup#enabling-apis
 [Sign up with Google Maps Platform]: https://console.cloud.google.com/google/maps-apis/start
 [SLA]: https://cloud.google.com/maps-platform/terms/sla
