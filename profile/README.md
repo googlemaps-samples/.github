@@ -7,6 +7,7 @@ This GitHub organization contains open source demo apps and sample code demonstr
 - [Companion code](https://github.com/googlemaps-samples/codelab-places-101-android-kotlin) for the [Get started with the Places SDK for Android (Kotlin) codelab](https://developers.google.com/codelabs/maps-platform/places-101-android-kotlin#0)
 - [Maps SDK for Android code samples](https://github.com/googlemaps-samples/android-samples)
 - [Places SDK for Android code samples](https://github.com/googlemaps-samples/android-places-demos)
+- [Maps 3D SDK for Android Samples](https://github.com/googlemaps-samples/android-maps3d-samples)
 
 ## For iOS apps
 
